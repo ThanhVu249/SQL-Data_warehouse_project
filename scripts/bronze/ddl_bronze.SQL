@@ -20,7 +20,7 @@ create table bronze.crm_customer_info (
     cst_last_name NVARCHAR(100),
     cst_material_status nvarchar(50),
     cst_gender nvarchar(20),
-    cst_birth_date DATE
+    cst_create_date DATE
 );
 GO
 
