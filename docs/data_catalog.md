@@ -22,6 +22,7 @@ The gold layer is the business-level data representation, structured to support 
 ## 2. gold.dim_products
 - **Purpose**: Stores information about the products and their attributes
 - **Columns**:
+
 |**Column Name**|**Date Type**|**Description**|
 |---|---|---|
 | product_key|INT| Surrogate key uniquely identifying each customer record in the dimension table.|
@@ -39,6 +40,7 @@ The gold layer is the business-level data representation, structured to support 
 ## 3. gold.fact_sales
 - **purpose**: stores transactional sales data for analytical purposes
 - **Columns**:
+
 |**Column Name**|**Data Type**|**Description**|
 |---|---|---|
 | order_number|nvarchar(50)| A unique alphanumeric identifier for each sales order (e.g., 'SO54496')|
